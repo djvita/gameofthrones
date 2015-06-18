@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CharacterDetails : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *imgUser;
+@property (strong, nonatomic) IBOutlet UILabel *lblName;
+@property (strong, nonatomic) IBOutlet UILabel *lblDescription;
+- (IBAction)btnBackPressed:(id)sender;
 
 @end
