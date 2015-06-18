@@ -10,11 +10,23 @@
 		38C928971B32F37800625D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C928961B32F37800625D79 /* main.m */; };
 		38C9289A1B32F37800625D79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C928991B32F37800625D79 /* AppDelegate.m */; };
 		38C9289D1B32F37800625D79 /* gameofthrones.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38C9289B1B32F37800625D79 /* gameofthrones.xcdatamodeld */; };
-		38C928A01B32F37800625D79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C9289F1B32F37800625D79 /* ViewController.m */; };
+		38C928A01B32F37800625D79 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C9289F1B32F37800625D79 /* Start.m */; };
 		38C928A31B32F37800625D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C928A11B32F37800625D79 /* Main.storyboard */; };
 		38C928A51B32F37800625D79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C928A41B32F37800625D79 /* Images.xcassets */; };
 		38C928A81B32F37800625D79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38C928A61B32F37800625D79 /* LaunchScreen.xib */; };
 		38C928B41B32F37800625D79 /* gameofthronesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C928B31B32F37800625D79 /* gameofthronesTests.m */; };
+		38C928CA1B32F49700625D79 /* dany.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38C928C31B32F49700625D79 /* dany.jpg */; };
+		38C928CB1B32F49700625D79 /* drogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C928C41B32F49700625D79 /* drogo.png */; };
+		38C928CC1B32F49700625D79 /* goTWallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38C928C51B32F49700625D79 /* goTWallpaper.jpg */; };
+		38C928CD1B32F49700625D79 /* joffrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C928C61B32F49700625D79 /* joffrey.png */; };
+		38C928CE1B32F49700625D79 /* jonsnow.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 38C928C71B32F49700625D79 /* jonsnow.jpeg */; };
+		38C928CF1B32F49700625D79 /* tyrion.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C928C81B32F49700625D79 /* tyrion.png */; };
+		38C928D01B32F49700625D79 /* wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38C928C91B32F49700625D79 /* wallpaper.jpg */; };
+		38C928D41B32F4B800625D79 /* cellGoT.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C928D21B32F4B800625D79 /* cellGoT.m */; };
+		38C928D51B32F4B800625D79 /* cellGoT.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38C928D31B32F4B800625D79 /* cellGoT.xib */; };
+		38C928D81B32F51C00625D79 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C928D71B32F51C00625D79 /* Declarations.m */; };
+		38C928DB1B32F72000625D79 /* CharacterDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C928DA1B32F72000625D79 /* CharacterDetails.m */; };
+		38C928DE1B32F73300625D79 /* AddCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C928DD1B32F73300625D79 /* AddCharacter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +46,30 @@
 		38C928981B32F37800625D79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		38C928991B32F37800625D79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		38C9289C1B32F37800625D79 /* gameofthrones.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gameofthrones.xcdatamodel; sourceTree = "<group>"; };
-		38C9289E1B32F37800625D79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38C9289F1B32F37800625D79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38C9289E1B32F37800625D79 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		38C9289F1B32F37800625D79 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		38C928A21B32F37800625D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38C928A41B32F37800625D79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		38C928A71B32F37800625D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		38C928AD1B32F37800625D79 /* gameofthronesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameofthronesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C928B21B32F37800625D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38C928B31B32F37800625D79 /* gameofthronesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gameofthronesTests.m; sourceTree = "<group>"; };
+		38C928C31B32F49700625D79 /* dany.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dany.jpg; path = "../../../../../Downloads/CM-Table-Tutorial-master 2/CM-Table-Tutorial/CM-Table/imgs/dany.jpg"; sourceTree = "<group>"; };
+		38C928C41B32F49700625D79 /* drogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drogo.png; path = "../../../../../Downloads/CM-Table-Tutorial-master 2/CM-Table-Tutorial/CM-Table/imgs/drogo.png"; sourceTree = "<group>"; };
+		38C928C51B32F49700625D79 /* goTWallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = goTWallpaper.jpg; path = "../../../../../Downloads/CM-Table-Tutorial-master 2/CM-Table-Tutorial/CM-Table/imgs/goTWallpaper.jpg"; sourceTree = "<group>"; };
+		38C928C61B32F49700625D79 /* joffrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joffrey.png; path = "../../../../../Downloads/CM-Table-Tutorial-master 2/CM-Table-Tutorial/CM-Table/imgs/joffrey.png"; sourceTree = "<group>"; };
+		38C928C71B32F49700625D79 /* jonsnow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jonsnow.jpeg; path = "../../../../../Downloads/CM-Table-Tutorial-master 2/CM-Table-Tutorial/CM-Table/imgs/jonsnow.jpeg"; sourceTree = "<group>"; };
+		38C928C81B32F49700625D79 /* tyrion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tyrion.png; path = "../../../../../Downloads/CM-Table-Tutorial-master 2/CM-Table-Tutorial/CM-Table/imgs/tyrion.png"; sourceTree = "<group>"; };
+		38C928C91B32F49700625D79 /* wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wallpaper.jpg; path = "../../../../../Downloads/CM-Table-Tutorial-master 2/CM-Table-Tutorial/CM-Table/imgs/wallpaper.jpg"; sourceTree = "<group>"; };
+		38C928D11B32F4B800625D79 /* cellGoT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cellGoT.h; path = "../../../../../Downloads/CM-Table-Tutorial-master 2/CM-Table-Tutorial/CM-Table/cellGoT.h"; sourceTree = "<group>"; };
+		38C928D21B32F4B800625D79 /* cellGoT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = cellGoT.m; path = "../../../../../Downloads/CM-Table-Tutorial-master 2/CM-Table-Tutorial/CM-Table/cellGoT.m"; sourceTree = "<group>"; };
+		38C928D31B32F4B800625D79 /* cellGoT.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = cellGoT.xib; path = "../../../../../Downloads/CM-Table-Tutorial-master 2/CM-Table-Tutorial/CM-Table/cellGoT.xib"; sourceTree = "<group>"; };
+		38C928D61B32F51C00625D79 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Declarations.h; path = "../../../../../Downloads/CM-Table-Tutorial-master 2/CM-Table-Tutorial/CM-Table/Declarations.h"; sourceTree = "<group>"; };
+		38C928D71B32F51C00625D79 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Declarations.m; path = "../../../../../Downloads/CM-Table-Tutorial-master 2/CM-Table-Tutorial/CM-Table/Declarations.m"; sourceTree = "<group>"; };
+		38C928D91B32F72000625D79 /* CharacterDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterDetails.h; sourceTree = "<group>"; };
+		38C928DA1B32F72000625D79 /* CharacterDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterDetails.m; sourceTree = "<group>"; };
+		38C928DC1B32F73300625D79 /* AddCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCharacter.h; sourceTree = "<group>"; };
+		38C928DD1B32F73300625D79 /* AddCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCharacter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,15 +111,15 @@
 		38C928931B32F37800625D79 /* gameofthrones */ = {
 			isa = PBXGroup;
 			children = (
-				38C928981B32F37800625D79 /* AppDelegate.h */,
-				38C928991B32F37800625D79 /* AppDelegate.m */,
-				38C9289E1B32F37800625D79 /* ViewController.h */,
-				38C9289F1B32F37800625D79 /* ViewController.m */,
+				38C928BD1B32F3D500625D79 /* Main */,
+				38C928BE1B32F3DD00625D79 /* Customized */,
+				38C928BF1B32F3E600625D79 /* Controllers */,
 				38C928A11B32F37800625D79 /* Main.storyboard */,
 				38C928A41B32F37800625D79 /* Images.xcassets */,
 				38C928A61B32F37800625D79 /* LaunchScreen.xib */,
 				38C9289B1B32F37800625D79 /* gameofthrones.xcdatamodeld */,
 				38C928941B32F37800625D79 /* Supporting Files */,
+				38C928C21B32F47100625D79 /* imgs */,
 			);
 			path = gameofthrones;
 			sourceTree = "<group>";
@@ -120,6 +148,54 @@
 				38C928B21B32F37800625D79 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38C928BD1B32F3D500625D79 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				38C928981B32F37800625D79 /* AppDelegate.h */,
+				38C928991B32F37800625D79 /* AppDelegate.m */,
+				38C928D61B32F51C00625D79 /* Declarations.h */,
+				38C928D71B32F51C00625D79 /* Declarations.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		38C928BE1B32F3DD00625D79 /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				38C928D11B32F4B800625D79 /* cellGoT.h */,
+				38C928D21B32F4B800625D79 /* cellGoT.m */,
+				38C928D31B32F4B800625D79 /* cellGoT.xib */,
+			);
+			name = Customized;
+			sourceTree = "<group>";
+		};
+		38C928BF1B32F3E600625D79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				38C9289E1B32F37800625D79 /* Start.h */,
+				38C9289F1B32F37800625D79 /* Start.m */,
+				38C928D91B32F72000625D79 /* CharacterDetails.h */,
+				38C928DA1B32F72000625D79 /* CharacterDetails.m */,
+				38C928DC1B32F73300625D79 /* AddCharacter.h */,
+				38C928DD1B32F73300625D79 /* AddCharacter.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		38C928C21B32F47100625D79 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				38C928C31B32F49700625D79 /* dany.jpg */,
+				38C928C41B32F49700625D79 /* drogo.png */,
+				38C928C51B32F49700625D79 /* goTWallpaper.jpg */,
+				38C928C61B32F49700625D79 /* joffrey.png */,
+				38C928C71B32F49700625D79 /* jonsnow.jpeg */,
+				38C928C81B32F49700625D79 /* tyrion.png */,
+				38C928C91B32F49700625D79 /* wallpaper.jpg */,
+			);
+			name = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +278,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C928CB1B32F49700625D79 /* drogo.png in Resources */,
 				38C928A31B32F37800625D79 /* Main.storyboard in Resources */,
 				38C928A81B32F37800625D79 /* LaunchScreen.xib in Resources */,
+				38C928CF1B32F49700625D79 /* tyrion.png in Resources */,
+				38C928D01B32F49700625D79 /* wallpaper.jpg in Resources */,
+				38C928CC1B32F49700625D79 /* goTWallpaper.jpg in Resources */,
+				38C928CD1B32F49700625D79 /* joffrey.png in Resources */,
+				38C928D51B32F4B800625D79 /* cellGoT.xib in Resources */,
 				38C928A51B32F37800625D79 /* Images.xcassets in Resources */,
+				38C928CE1B32F49700625D79 /* jonsnow.jpeg in Resources */,
+				38C928CA1B32F49700625D79 /* dany.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,9 +307,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C9289D1B32F37800625D79 /* gameofthrones.xcdatamodeld in Sources */,
+				38C928DB1B32F72000625D79 /* CharacterDetails.m in Sources */,
+				38C928D41B32F4B800625D79 /* cellGoT.m in Sources */,
+				38C928D81B32F51C00625D79 /* Declarations.m in Sources */,
 				38C9289A1B32F37800625D79 /* AppDelegate.m in Sources */,
-				38C928A01B32F37800625D79 /* ViewController.m in Sources */,
+				38C928A01B32F37800625D79 /* Start.m in Sources */,
 				38C928971B32F37800625D79 /* main.m in Sources */,
+				38C928DE1B32F73300625D79 /* AddCharacter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
